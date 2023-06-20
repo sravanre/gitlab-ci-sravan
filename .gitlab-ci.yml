@@ -1,15 +1,15 @@
 build:
-  stage: 
+  stage: build
   script:
     - echo "this is message from STAGE"
 
 
 test:
-  stage: 
+  stage: test
   script:
     - echo "this is message from TEST"
 
 deploy:
-  stage: 
+  stage: deployOnAWS
   script:
     - echo "this is message from Deplyed on AWS EKS cluster"
