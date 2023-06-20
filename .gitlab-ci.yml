@@ -1,0 +1,7 @@
+default:
+  image: python:latest
+
+job-name-to-be-run:
+    script:
+        - ls -l;hostname
+        - python hello.py
