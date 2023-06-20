@@ -2,3 +2,5 @@ job-name-to-be-run:
     script:
         - ls -l;hostname
         - cat /etc/*release
+        - sudo apt install python -y
+        - python hello.py
