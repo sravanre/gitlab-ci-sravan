@@ -1,7 +1,15 @@
-default:
-  image: python:latest
+build:
+  stage: 
+  script:
+    - echo "this is message from STAGE"
 
-job-name-to-be-run:
-    script:
-        - ls -l;hostname
-        - python hello.py
+
+test:
+  stage: 
+  script:
+    - echo "this is message from TEST"
+
+deploy:
+  stage: 
+  script:
+    - echo "this is message from Deplyed on AWS EKS cluster"
