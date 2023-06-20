@@ -1,7 +1,7 @@
+default:
+  image: python:latest
+
 job-name-to-be-run:
     script:
         - ls -l;hostname
-        - cat /etc/*release
-    script:
-        - apt install python 
         - python hello.py
