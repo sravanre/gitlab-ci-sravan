@@ -1,4 +1,4 @@
 job-name-to-be-run:
     script:
         - ls -l;hostname
-        - which python
+        - cat /etc/*release
