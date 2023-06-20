@@ -1,0 +1,3 @@
+job-name-to-be-run:
+    script:
+        - python hello.py
