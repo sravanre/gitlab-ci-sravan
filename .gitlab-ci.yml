@@ -1,3 +1,4 @@
 job-name-to-be-run:
     script:
         - ls -l;hostname
+        - which python
